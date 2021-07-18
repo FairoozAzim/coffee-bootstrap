@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*========================
+         Common Styles 
+===========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: black;
+    font-weight: 600;
+}
+
+.section-gap {
+    padding: 120px 0;
+}
+
+
+/*===================================
+         Header and NavBar Section
+=====================================*/
+
+.bg {
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-info span {
+    color: white;
+    margin-left: 10px;
+    /* font-size: 13px; */
+    margin-top: -2px;
+}
+
+
+/* .bs-example {
+    margin: 20px;
+} */
+
+.modal-dialog iframe {
+    margin: 0 auto;
+    /* display: block; */
+}
+
+
+/*.navbar {
+     background-color: rgba(243, 143, 143, 0.486); */
+
+
+/* position: sticky;
+    top: 0; 
+}*/
+
+.nav-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    /* margin: 0; */
+    margin-left: 3%;
+}
+
+.banner {
+    margin-left: 8%;
+}
+
+.ms {
+    margin-left: 10%;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+
+/*===================================
+          Telecast Section
+=====================================*/
+
+.tele {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.telecast-video {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.77);
+    border-radius: 10px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    /* opacity: 0.4; */
+    filter: opacity(0.4) drop-shadow(0 0 0 black);
+}
+
+.btn-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    border-radius: 40%;
+}
+
+.telecast {
+    margin-bottom: 10%;
+}
+
+.telecast-info {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.telecast-info .title {
+    font-size: 14px;
+    color: goldenrod;
+    letter-spacing: 3px;
+}
+
+.telecast-info h1 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.telecast-info h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.telecast-info .description {
+    color: rgb(155, 149, 149);
+    font-weight: lighter;
+}
+
+
+/*===================================
+         Menu  Section
+=====================================*/
+
+.menu {
+    background-image: url(../images/menu-bg.jpg.webp);
+    margin-bottom: 10%;
+    padding: 120px 0;
+}
+
+.card {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.menu-text p {
+    margin-bottom: 5%;
+}
+
+.menu-item h5 {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.menu-price {
+    color: goldenrod;
+}
+
+
+/*===================================
+         Gallery Section
+=====================================*/
+
+.row-margin {
+    margin: 5%;
+}
+
+
+/*===================================
+        FeedBack Section
+=====================================*/
+
+
+/*===================================
+         Header and NavBar Section
+=====================================*/
+
+
+/*===================================
+        Blog Section
+=====================================*/
+
+
+/*===================================
+         Footer Section
+=====================================*/

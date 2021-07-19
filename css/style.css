@@ -91,6 +91,13 @@ h1 {
     padding: 10px;
     text-transform: uppercase;
     font-weight: 550;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
 
 
@@ -105,7 +112,7 @@ h1 {
 }
 
 .telecast-video {
-    width: 60%;
+    /* width: 60%; */
     position: relative;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.77);
@@ -116,7 +123,7 @@ h1 {
     position: relative;
     width: 100%;
     /* opacity: 0.4; */
-    filter: opacity(0.4) drop-shadow(0 0 0 black);
+    /* filter: opacity(0.4) drop-shadow(0 0 0 black); */
 }
 
 .btn-play {
@@ -233,13 +240,10 @@ h1 {
     line-height: 20px;
 }
 
-.half {
-    width: 70%;
-}
 
-.me {
-    margin-right: 14%;
-}
+/* .half {
+    width: 70%;
+} */
 
 .me .counter-title {
     font-size: 60px;
@@ -256,7 +260,12 @@ h1 {
 }
 
 .btn-outline {
-    border: 1px solid gray;
+    border: 1px solid rgb(224, 223, 223);
+}
+
+.btn-outline:hover {
+    background-color: #b68834;
+    color: white;
 }
 
 .blog-container span {
@@ -265,11 +274,15 @@ h1 {
 }
 
 .blog-container a,
-h3 {
+.blog-container h3 {
     text-decoration: none;
     color: black;
     font-weight: 800;
     font-size: 20px;
+}
+
+.blog-container p {
+    color: #777777;
 }
 
 
@@ -282,20 +295,81 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 120px 0px;
+    padding: 190px 0px;
     width: 100%;
 }
+
+
+/* .about {
+    width: 40%;
+}
+
+.newsletter {
+    width: 40%;
+}
+
+.follow {
+    width: 20%;
+} */
 
 .footer-container {
     margin-top: 150px;
 }
 
 .footer-item {
-    width: 50%;
-    margin: 20px;
+    text-align: left;
 }
 
+.about {
+    width: 40%;
+}
+
+.about p {
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 13px;
+    line-height: 1.625em;
+    color: whitesmoke;
+}
+
+.about span {
+    color: #b68834;
+}
+
+.newsletter {
+    width: 35%;
+}
+
+.newsletter input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+}
+
+.newsletter button {
+    background-color: #b68834;
+    width: 40px;
+}
+
+.follow {
+    width: 20%;
+}
+
+.social {
+    color: white;
+}
+
+.follow .social:hover {
+    color: #b68834;
+    transition: 1s;
+}
+
+
+/* .about {
+    margin-left: -5%;
+} */
+
 .footer-item h3,
-p {
+.footer-item p {
     color: white;
 }

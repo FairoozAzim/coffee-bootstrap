@@ -14,7 +14,7 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar">
+<body data-bs-spy="scroll" data-bs-target="#navbar mx-sm-auto">
 
     <!--=============================== Header Section====================================== -->
 
@@ -73,7 +73,7 @@
         </nav>
         <div class="d-flex flex-column  align-items-start banner  ms">
             <h1 class="display-1 text-white header-text">Start your day with <br> a black coffee</h1>
-            <button type="button" class="btn btn-light btn-sm rounded-pill">Buy Now</button>
+            <button type="button" class="btn rounded-pill">Buy Now</button>
         </div>
     </header>
 
@@ -85,14 +85,16 @@
 
 
         <section class="telecast" id="home">
-            <div class="container d-flex justify-content-around tele">
-                <div class="telecast-video">
-                    <img class="video" src="images/video.jpg" alt="">
+            <div class="container row d-flex ms-5 mb-5 tele">
+                <div class="col-lg-6 col-sm-12 telecast-video p-2">
+                    <!-- <img class="video" src="images/video.jpg" alt="">
                     <a href="#myModal" data-toggle="modal"><img class="btn-play" src="images/play3.png" alt=""></i>
-                    </a>
+                    </a> -->
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/FM5_NoXW2Y0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
                 </div>
-                <div class="telecast-info">
+                <div class="col-lg-6 col-sm-12 p-2 telecast-info">
                     <p class="title">LIVE COFFEE MAKING PROCESS.</p>
                     <h1>We Telecast our Coffee Making Live</h1>
                     <h4>We are here to listen from you deliver exellence</h4>
@@ -291,8 +293,8 @@
                     <h1>What kind of Coffee we serve for you</h1>
                     <p>Who are in extremely love with echo friendly system.</p>
                 </div>
-                <div class="d-flex mt-5 p-3">
-                    <div class="review-container me-3">
+                <div class="row mt-5 p-3">
+                    <div class="col-lg-6 col-sm-12 col-md-6 review-container ">
                         <img src="images/review2.jpg" alt="">
                         <div class="d-flex">
                             <div class="title me-4 mt-4">
@@ -309,7 +311,7 @@
                         <p>Accessories here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
                         </p>
                     </div>
-                    <div class="review-container me-3">
+                    <div class="col-lg-6 col-sm-12 col-md-6  review-container">
                         <img src="images/review1.jpg" alt="">
                         <div class="d-flex ">
                             <div class="title me-4 mt-4">
@@ -327,20 +329,20 @@
                         </p>
                     </div>
                 </div>
-                <div class="d-flex mt-5">
-                    <div class="counter me">
+                <div class="row mt-5">
+                    <div class="col-lg-3 col-sm-6 col-md-6 counter me">
                         <h1 class="counter-title">2536</h1>
                         <p>Happy Client</p>
                     </div>
-                    <div class="counter me">
+                    <div class="col-lg-3 col-sm-6 col-md-6 counter me">
                         <h1 class="counter-title">7562</h1>
                         <p>Total Projects</p>
                     </div>
-                    <div class="counter me">
+                    <div class="col-lg-3 col-sm-6 col-md-6 counter me">
                         <h1 class="counter-title">2013</h1>
                         <p>Cups Coffee</p>
                     </div>
-                    <div class="counter me">
+                    <div class="col-lg-3 col-sm-6 col-md-6 counter me">
                         <h1 class="counter-title">10536</h1>
                         <p>Total Submitted</p>
                     </div>
@@ -353,8 +355,8 @@
 
         <section class="blog">
             <div class="container">
-                <div class="d-flex">
-                    <div class="blog-container me-5">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-md-12  blog-container ">
                         <img src="images/blog-1.jpg" alt="">
 
                         <div class="button mt-3">
@@ -367,7 +369,7 @@
                         <p class="mt-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         <span class="mt-3">30th June, 2020</span>
                     </div>
-                    <div class="blog-container">
+                    <div class="col-lg-6 col-sm-12 col-md-6  blog-container">
                         <img src="images/blog-2.jpg" alt="">
 
                         <div class="button mt-3">
@@ -388,28 +390,28 @@
     <!--=============================== Footer Section====================================== -->
 
     <footer class="footer">
-        <div class="container">
-            <div class="d-flex footer-container justify-content-center">
-                <div class="about footer-item">
-                    <h3 class="text-light">About Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ipsam eligendi! Aspernatur dicta eius, dolor reprehenderit officiis culpa dolorum at?</p>
+        <div class="container-fluid">
+            <div class="row justify-content-around align-items-center gx-3 ms-4">
+                <div class="col-lg-3 col-sm-12 col-md-12 about footer-item ms-1 p-3">
+                    <h6 class="text-light pb-3">About Us</h6>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ipsam eligendi! Aspernatur </p>
                     <p>Copyright &copy;2021 All rights reserved | This template is cloned from <span>Colorlib</span> by <span>Fairooz Azim</span></p>
                 </div>
-                <div class="newsletter footer-item">
-                    <h3 class="text-light">Newsletter</h3>
+                <div class="col-lg-3 col-sm-12 col-md-12 newsletter footer-item ">
+                    <h6 class="text-light pb-3">Newsletter</h6>
                     <p>Stay update with out latest</p>
                     <div class="d-flex">
                         <input type="email" placeholder="Enter Email">
-                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                        <button type="submit"><i class="fas fa-arrow-right text-light"></i></button>
                     </div>
                 </div>
-                <div class="follow">
-                    <h3 class="text-light">Follow Us</h3>
-                    <p>Let us be social</p>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fas fa-basketball-ball"></i></a>
-                    <a href=""><i class="fab fa-behance"></i></a>
+                <div class="col-lg-3 col-sm-12 col-md-12 follow">
+                    <h6 class="text-light pb-3">Follow Us</h6>
+                    <p class="text-light"> Let us be social</p>
+                    <a class="me-3  social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="me-3  social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="me-3  social" href=""><i class="fas fa-basketball-ball"></i></a>
+                    <a class="me-3  social" href=""><i class="fab fa-behance"></i></a>
                 </div>
             </div>
         </div>

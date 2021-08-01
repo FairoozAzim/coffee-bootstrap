@@ -10,6 +10,10 @@
                 box-sizing: border-box;
             }
             
+            html {
+                overflow-x: hidden;
+            }
+            
             body {
                 font-family: 'Poppins', sans-serif;
                 color: #777777;
@@ -47,10 +51,8 @@
     margin: 20px;
 } */
             
-            .navbar {
-                background-color: rgb(59, 38, 38);
-                position: sticky;
-                top: 0;
+            .navbar-bg {
+                background-color: #573422b8;
             }
             
             .nav-info a {
@@ -78,6 +80,7 @@
             .header-text {
                 font-weight: 600;
                 font-size: 60px;
+                margin-top: 10%;
             }
             
             .btn {
@@ -96,45 +99,6 @@
             /*===================================
           Telecast Section
 =====================================*/
-            
-            .tele {
-                width: 100%;
-                padding: 10px;
-                margin-top: 10%;
-            }
-            
-            .telecast-video {
-                /* width: 60%; */
-                position: relative;
-                overflow: hidden;
-                background-color: rgba(0, 0, 0, 0.77);
-                border-radius: 10px;
-            }
-            
-            .video {
-                position: relative;
-                width: 100%;
-                /* opacity: 0.4; */
-                /* filter: opacity(0.4) drop-shadow(0 0 0 black); */
-            }
-            
-            .btn-play {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 100px;
-                border-radius: 40%;
-            }
-            
-            .telecast {
-                margin-bottom: 10%;
-            }
-            
-            .telecast-info {
-                width: 40%;
-                margin-left: 10%;
-            }
             
             .telecast-info .title {
                 font-size: 14px;
@@ -173,7 +137,6 @@
                 border-radius: 10px;
                 box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
                 margin-top: 5%;
-                margin-left: 5%;
             }
             
             .menu-text p {
@@ -193,10 +156,9 @@
             /*===================================
          Gallery Section
 =====================================*/
-            
-            .row-margin {
+            /* .row-margin {
                 margin: 5%;
-            }
+            } */
             /*===================================
         Review Section
 =====================================*/
@@ -313,4 +275,16 @@
             .footer-item h3,
             .footer-item p {
                 color: white;
+            }
+            
+            @media only screen and (max-width:680px) {
+                .video {
+                    width: 100%;
+                }
+            }
+            
+            @media only screen and (min-width:680px) and (max-width:992px) {
+                .video {
+                    width: 100%;
+                }
             }

@@ -20,54 +20,60 @@
 
 
     <header class="bg">
-        <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
-            <div class="container  ms">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar_top">
+            <div class="container ms">
                 <div class="d-flex flex-column mt-3">
                     <a class="navbar-brand text-white" href="#">
                         <img src="images/logo.jpg" alt="" width="40" height="40">CAFE
                     </a>
-
-                    <p class="d-block  text-white">Now You Can Feel the Energy</p>
+                    <p class=" text-white">Now You Can Feel the Energy</p>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="d-flex flex-column">
-                    <div class="collapse navbar-collapse nav-info me-2" id="navbarNav">
-                        <span class="me-3">Mon-Fri: 8am to 2pm</span>
-                        <span class="me-3">Sat-Sun: 11am to 4pm</span>
-                        <a href="tel:+">(012) 6985 236 7512</a>
 
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link   text-white" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link   text-white" href="#">Coffee</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link   text-white" href="#">Review</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link   text-white" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Pages
-                          </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Generic</a></li>
-                                    <li><a class="dropdown-item" href="#">Elements</a></li>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse nav-info " id="navbarNav">
+                        <div class="d-flex flex-column">
+                            <div class="d-none d-lg-flex ">
+                                <span class="me-3">Mon-Fri: 8am to 2pm</span>
+                                <span class="me-3">Sat-Sun: 11am to 4pm</span>
+                                <a href="tel:+">(012) 6985 236 7512</a>
+                            </div>
+                            <div class="d-flex justify-content-around">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item me-3">
+                                        <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item me-3">
+                                        <a class="nav-link   text-white" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item me-3">
+                                        <a class="nav-link   text-white" href="#">Coffee</a>
+                                    </li>
+                                    <li class="nav-item me-3">
+                                        <a class="nav-link   text-white" href="#">Review</a>
+                                    </li>
+                                    <li class="nav-item me-3">
+                                        <a class="nav-link   text-white" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item dropdown me-3">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                      </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Generic</a></li>
+                                            <li><a class="dropdown-item" href="#">Elements</a></li>
+                                        </ul>
+                                    </li>
+
                                 </ul>
-                            </li>
 
-                        </ul>
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
             </div>
         </nav>
@@ -84,22 +90,21 @@
         <!--===============================Telecast Section====================================== -->
 
 
-        <section class="telecast" id="home">
-            <div class="container row d-flex ms-5 mb-5 tele">
-                <div class="col-lg-6 col-sm-12 telecast-video p-2">
-                    <!-- <img class="video" src="images/video.jpg" alt="">
-                    <a href="#myModal" data-toggle="modal"><img class="btn-play" src="images/play3.png" alt=""></i>
-                    </a> -->
-                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/FM5_NoXW2Y0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="telecast mt-5" id="home">
+            <div class="container mb-5 tele">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+                        <iframe class="video" width="80%" height="100%" src="https://www.youtube.com/embed/FM5_NoXW2Y0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-                </div>
-                <div class="col-lg-6 col-sm-12 p-2 telecast-info">
-                    <p class="title">LIVE COFFEE MAKING PROCESS.</p>
-                    <h1>We Telecast our Coffee Making Live</h1>
-                    <h4>We are here to listen from you deliver exellence</h4>
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laborum deleniti earum similique perferendis incidunt voluptate ratione sunt odio eaque.</p>
-                    <img src="images/signature.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-md-12 p-2 telecast-info">
+                        <p class="title">LIVE COFFEE MAKING PROCESS.</p>
+                        <h1>We Telecast our Coffee Making Live</h1>
+                        <h4>We are here to listen from you deliver exellence</h4>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laborum deleniti earum similique perferendis incidunt voluptate ratione sunt odio eaque.</p>
+                        <img src="images/signature.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -109,10 +114,10 @@
 
         <section class="menu ">
             <div class="container">
-                <div class="menu-text d-flex align-items-center">
+                <div class="menu-text d-flex align-items-center justify-content-center">
                     <div>
                         <h1>What kind of Coffee we serve for you</h1>
-                        <p>Who are in extremely love with echo friendly system.</p>
+                        <p class="text-center">Who are in extremely love with echo friendly system.</p>
                     </div>
                 </div>
                 <div class="row gx-4 gy-4">
@@ -124,7 +129,7 @@
                                     <p class="card-text">Usage of the Internet is becoming more common due to rapid advance.</p>
                                 </div>
                                 <div class="menu-price">
-                                    <p>8$</p>
+                                    <p>20$</p>
                                 </div>
                             </div>
 
@@ -139,7 +144,7 @@
                                     <p class="card-text">Usage of the Internet is becoming more common due to rapid advance.</p>
                                 </div>
                                 <div class="menu-price">
-                                    <p>6$</p>
+                                    <p>20$</p>
                                 </div>
                             </div>
 
@@ -259,26 +264,28 @@
         <!--===============================Gallery Section====================================== -->
 
 
-        <section class="image-gallery">
+        <section class="image-gallery mb-5">
             <div class="container">
-                <div class="d-flex flex-column align-items-center m-4">
+                <div class="d-flex flex-column align-items-center mb-4">
                     <h1>What kind of Coffee we serve for you</h1>
                     <p>Who are in extremely love with eco friendly system.</p>
                 </div>
-                <div class="row row-margin">
-                    <div class="col-lg-4 col-sm-12">
-                        <a href=""> <img class="img-fluid mb-4" src="images/gallery1.jpg" alt=""></a>
-                        <a href=""> <img class="img-fluid mb-4"" src="images/gallery3.jpg" alt=""></a>
-                    </div>
-                    <div class="col-lg-8 col-sm-12 col-margin">
-                        <a href=""> <img class="img-fluid mb-4"" src="images/gallery2.jpg" alt=""></a>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <a href=""> <img class="img-fluid mb-4"" src="images/gallery4.jpg" alt=""> </a>
-                            </div>
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-sm-12 col-md-12">
+                            <a href=""> <img class="img-fluid mb-4" src="images/gallery1.jpg" alt="" width="100%"></a>
+                            <a href=""> <img class="img-fluid " src="images/gallery3.jpg" alt="" width="100%"></a>
+                        </div>
+                        <div class="col-lg-8 col-sm-12 col-md-12 col-margin">
+                            <a href=""> <img class="img-fluid mb-4" src="images/gallery2.jpg" alt="" width="100%"></a>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12 col-md-12">
+                                    <a href=""> <img class="img-fluid mb-4" src="images/gallery4.jpg" alt="" width="100%"> </a>
+                                </div>
 
-                            <div class="col-lg-6">
-                                <a href=""> <img class="img-fluid mb-4"" src="images/gallery-5.jpg" alt=""></a>
+                                <div class="col-lg-6 col-sm-12 col-md-12">
+                                    <a href=""> <img class="img-fluid mb-4" src="images/gallery-5.jpg" alt="" width="100%"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -297,7 +304,7 @@
                 </div>
                 <div class="row mt-5 p-3">
                     <div class="col-lg-6 col-sm-12 col-md-6 review-container ">
-                        <img src="images/review2.jpg" alt="">
+                        <img class="img-fluid" src="images/review2.jpg" alt="">
                         <div class="d-flex">
                             <div class="title me-4 mt-4">
                                 <h5>lorem ipsum</h5>
@@ -314,7 +321,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12 col-md-6  review-container">
-                        <img src="images/review1.jpg" alt="">
+                        <img class="img-fluid" src="images/review1.jpg" alt="">
                         <div class="d-flex ">
                             <div class="title me-4 mt-4">
                                 <h5>lorem ipsum</h5>
@@ -359,7 +366,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 col-md-12  blog-container ">
-                        <img src="images/blog-1.jpg" alt="">
+                        <img class="img-fluid" src="images/blog-1.jpg" alt="" width="100%">
 
                         <div class="button mt-3">
                             <button class="btn btn-outline btn-light btn-sm rounded-pill">Travel</button>
@@ -371,8 +378,8 @@
                         <p class="mt-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         <span class="mt-3">30th June, 2020</span>
                     </div>
-                    <div class="col-lg-6 col-sm-12 col-md-6  blog-container">
-                        <img src="images/blog-2.jpg" alt="">
+                    <div class="col-lg-6 col-sm-12 col-md-12  blog-container  mb-3">
+                        <img class="img-fluid " src="images/blog-2.jpg" alt="" width="100%">
 
                         <div class="button mt-3">
                             <button class="btn btn-outline btn-light btn-sm rounded-pill">Travel</button>
@@ -429,6 +436,23 @@
                 easing: 'swing',
                 step: function(now) {
                     $(this).text(Math.ceil(now));
+                }
+            });
+        });
+        //navbar activate
+        document.addEventListener("DOMContentLoaded", function() {
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 700) {
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    document.getElementById('navbar_top').classList.add('navbar-bg');
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    document.getElementById('navbar_top').classList.remove('navbar-bg');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
                 }
             });
         });

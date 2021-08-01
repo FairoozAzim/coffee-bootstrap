@@ -69,6 +69,10 @@
                 margin-left: 3%;
             }
             
+            .font-small {
+                font-size: 14px;
+            }
+            
             .banner {
                 margin-left: 8%;
             }
@@ -80,7 +84,6 @@
             .header-text {
                 font-weight: 600;
                 font-size: 60px;
-                margin-top: 10%;
             }
             
             .btn {
